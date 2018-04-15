@@ -1,0 +1,18 @@
+{
+  "name": "bathroomstatus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomatoToaster/BathroomStatus.git"
+  },
+  "author": "Amal Nazeem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomatoToaster/BathroomStatus/issues"
+  },
+  "homepage": "https://github.com/TomatoToaster/BathroomStatus#readme"
+}
