@@ -12,6 +12,5 @@
 # below:
 .git
 .gitignore
-
+gactions
 node_modules
-#!include:.gitignore
