@@ -1,3 +1,4 @@
 {
-  "bathroom_door_status_url": "http://whatever.url.to.your.bathroom.status"
+  "bathroom_door_status_url": "http://whatever.url.to.your.bathroom.status",
+  "ERROR_MESSAGE": "Something went wrong."
 }
