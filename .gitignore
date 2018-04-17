@@ -1,3 +1,6 @@
+# Ignoring gactions which I included in this directory to make testing easier. How to download gactions explained in README
 gactions
+
+# config.json should be created by the user of this repo
 config.json
-node_modules/
+node_modules

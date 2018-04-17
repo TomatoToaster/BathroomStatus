@@ -13,7 +13,6 @@
 .git
 .gitignore
 
-node_modules
 #!include:.gitignore
 
 # Explicitly include config.json so that the http function can access it
