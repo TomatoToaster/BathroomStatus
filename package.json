@@ -14,5 +14,9 @@
   "bugs": {
     "url": "https://github.com/TomatoToaster/BathroomStatus/issues"
   },
-  "homepage": "https://github.com/TomatoToaster/BathroomStatus#readme"
+  "homepage": "https://github.com/TomatoToaster/BathroomStatus#readme",
+  "dependencies": {
+    "moment": "^2.22.1",
+    "request": "^2.85.0"
+  }
 }
