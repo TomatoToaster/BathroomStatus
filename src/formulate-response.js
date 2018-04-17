@@ -1,4 +1,4 @@
-var moment = require('moment');
+var moment = require('moment-timezone');
 
 /**
  * Formualtes a response based on a bathroom_obj. If the bathroom is opened,
@@ -8,10 +8,10 @@ var moment = require('moment');
  */
 module.exports = function(bathroom_obj) {
   if (bathroom_obj.is_bathroom_door_closed) {
-    var last_open =  moment(bathroom_obj.last_time_door_was_open, "YYYY-MM-DD HH:mm:ss").fromNow();
+    var last_open =  moment(bathroom_obj.last_time_door_was_open, "YYYY-MM-DD HH:mm:ss").tz('America/New_York').fromNow();
     return "Sorry, it's been closed since " + last_open +".";
   } else {
-    var last_closed =  moment(bathroom_obj.last_time_door_was_closed, "YYYY-MM-DD HH:mm:ss").fromNow();
+    var last_closed =  moment(bathroom_obj.last_time_door_was_closed, "YYYY-MM-DD HH:mm:ss").tz('America/New_York').fromNow();
     return "It's open! And it's been open since " +last_closed  +".";
   }
 }

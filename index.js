@@ -31,7 +31,7 @@ exports.bathroom_status = (req, res) => {
 		else {
 			this_response.final_response.speech_response.text_to_speech = formulate_response(JSON.parse(body));
 		}
-		
+
 		res.json(this_response)
 		res.status(200).end()
   });
