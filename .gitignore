@@ -6,3 +6,6 @@ config.json
 node_modules
 creds.data
 action.json
+
+# Mac Finder files:
+.DS_Store
