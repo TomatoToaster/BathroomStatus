@@ -4,7 +4,7 @@ Do you want to know if you're bathroom is open, but you don't want to open your 
 Introducing: Bathroom Status, the bleeding edge google home app that will tell you if your bathroom is open and ready for use. (Raspberry Pi server and code for bathroom door sold separately)
 
 ## Pictures:
-![Google Assistant Preview](img/Google_Assistant_Preview.png)
+<img alt="Google Assistant Preview iPhone X" src="img/Google_Assistant_Preview.png" width="50%">
 
 ## Tutorial for installing your own version
 TBD
