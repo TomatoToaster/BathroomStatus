@@ -12,6 +12,6 @@ module.exports = function(bathroom_obj) {
     return "Sorry, it's been closed since " + last_open +".";
   } else {
     var last_closed =  moment.tz(bathroom_obj.last_time_door_was_closed, "YYYY-MM-DD HH:mm:ss", 'America/New_York').fromNow();
-    return "It's open! And it's been open since " +last_closed  +".";
+    return "It's open! And it's been open since " + last_closed  +".";
   }
 }
