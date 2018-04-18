@@ -4,3 +4,5 @@ gactions
 # config.json should be created by the user of this repo
 config.json
 node_modules
+creds.data
+action.json
